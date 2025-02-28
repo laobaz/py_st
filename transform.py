@@ -31,5 +31,6 @@ trans_resize_2=transforms.Resize(512)
 trans_compose=transforms.Compose(trans_resize_2,tensort)
 img_resize_2=trans_compose(img)
 
+# for i in range(10):
 
 writer.close()
